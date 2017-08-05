@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
     This is Pod distribution for TouchXML
                    DESC
 
-  s.homepage     = "http://git/chamira"
+  s.homepage     = "http://github.com/chamira"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Source", "TouchXML-Swift/Source/**/*.{h,m,swift}"
+  s.source_files  = "TouchXML-Swift/Source", "TouchXML-Swift/Source/**/*.{h,m,swift}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -132,7 +132,7 @@ Pod::Spec.new do |s|
 
   # s.requires_arc = true
 
-   s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" ,"CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES" => "YES"}
   # s.dependency "JSONKit", "~> 1.4"
 
 end
