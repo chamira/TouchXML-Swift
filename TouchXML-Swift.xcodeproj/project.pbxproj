@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		989057F61F35D81100D86ADD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 989057F51F35D81100D86ADD /* main.m */; };
+		989057F91F35D81100D86ADD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 989057F81F35D81100D86ADD /* AppDelegate.m */; };
+		989057FC1F35D81100D86ADD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 989057FB1F35D81100D86ADD /* ViewController.m */; };
+		989057FF1F35D81100D86ADD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 989057FD1F35D81100D86ADD /* Main.storyboard */; };
+		989058011F35D81100D86ADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 989058001F35D81100D86ADD /* Assets.xcassets */; };
+		989058041F35D81100D86ADD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 989058021F35D81100D86ADD /* LaunchScreen.storyboard */; };
+		9890580D1F35D85000D86ADD /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9890580C1F35D85000D86ADD /* Test.swift */; };
+		9890583E1F35D91300D86ADD /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9890583D1F35D91300D86ADD /* libxml2.2.tbd */; };
+		9890585F1F35DB0400D86ADD /* CXMLDocument_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 989058421F35DB0400D86ADD /* CXMLDocument_CreationExtensions.m */; };
+		989058601F35DB0400D86ADD /* CXMLNode_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 989058441F35DB0400D86ADD /* CXMLNode_CreationExtensions.m */; };
+		989058611F35DB0400D86ADD /* CXHTMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 989058461F35DB0400D86ADD /* CXHTMLDocument.m */; };
+		989058621F35DB0400D86ADD /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 989058481F35DB0400D86ADD /* CXMLDocument.m */; };
+		989058631F35DB0400D86ADD /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9890584A1F35DB0400D86ADD /* CXMLDocument_PrivateExtensions.m */; };
+		989058641F35DB0400D86ADD /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 9890584C1F35DB0400D86ADD /* CXMLElement.m */; };
+		989058651F35DB0400D86ADD /* CXMLElement_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9890584E1F35DB0400D86ADD /* CXMLElement_CreationExtensions.m */; };
+		989058661F35DB0400D86ADD /* CXMLElement_ElementTreeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 989058501F35DB0400D86ADD /* CXMLElement_ElementTreeExtensions.m */; };
+		989058671F35DB0400D86ADD /* CXMLNamespaceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 989058521F35DB0400D86ADD /* CXMLNamespaceNode.m */; };
+		989058681F35DB0400D86ADD /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 989058541F35DB0400D86ADD /* CXMLNode.m */; };
+		989058691F35DB0400D86ADD /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 989058561F35DB0400D86ADD /* CXMLNode_PrivateExtensions.m */; };
+		9890586A1F35DB0400D86ADD /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 989058581F35DB0400D86ADD /* CXMLNode_XPathExtensions.m */; };
+		9890586B1F35DB0400D86ADD /* CXMLUnsupportedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9890585A1F35DB0400D86ADD /* CXMLUnsupportedNode.m */; };
+		9890586C1F35DB0400D86ADD /* CTidy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9890585D1F35DB0400D86ADD /* CTidy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		989057F11F35D81100D86ADD /* TouchXML-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TouchXML-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		989057F51F35D81100D86ADD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		989057F71F35D81100D86ADD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		989057F81F35D81100D86ADD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		989057FA1F35D81100D86ADD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		989057FB1F35D81100D86ADD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		989057FE1F35D81100D86ADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		989058001F35D81100D86ADD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		989058031F35D81100D86ADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		989058051F35D81100D86ADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9890580C1F35D85000D86ADD /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		9890583D1F35D91300D86ADD /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		989058411F35DB0400D86ADD /* CXMLDocument_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_CreationExtensions.h; sourceTree = "<group>"; };
+		989058421F35DB0400D86ADD /* CXMLDocument_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_CreationExtensions.m; sourceTree = "<group>"; };
+		989058431F35DB0400D86ADD /* CXMLNode_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_CreationExtensions.h; sourceTree = "<group>"; };
+		989058441F35DB0400D86ADD /* CXMLNode_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_CreationExtensions.m; sourceTree = "<group>"; };
+		989058451F35DB0400D86ADD /* CXHTMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXHTMLDocument.h; sourceTree = "<group>"; };
+		989058461F35DB0400D86ADD /* CXHTMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXHTMLDocument.m; sourceTree = "<group>"; };
+		989058471F35DB0400D86ADD /* CXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument.h; sourceTree = "<group>"; };
+		989058481F35DB0400D86ADD /* CXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument.m; sourceTree = "<group>"; };
+		989058491F35DB0400D86ADD /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_PrivateExtensions.h; sourceTree = "<group>"; };
+		9890584A1F35DB0400D86ADD /* CXMLDocument_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_PrivateExtensions.m; sourceTree = "<group>"; };
+		9890584B1F35DB0400D86ADD /* CXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement.h; sourceTree = "<group>"; };
+		9890584C1F35DB0400D86ADD /* CXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement.m; sourceTree = "<group>"; };
+		9890584D1F35DB0400D86ADD /* CXMLElement_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement_CreationExtensions.h; sourceTree = "<group>"; };
+		9890584E1F35DB0400D86ADD /* CXMLElement_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement_CreationExtensions.m; sourceTree = "<group>"; };
+		9890584F1F35DB0400D86ADD /* CXMLElement_ElementTreeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement_ElementTreeExtensions.h; sourceTree = "<group>"; };
+		989058501F35DB0400D86ADD /* CXMLElement_ElementTreeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement_ElementTreeExtensions.m; sourceTree = "<group>"; };
+		989058511F35DB0400D86ADD /* CXMLNamespaceNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNamespaceNode.h; sourceTree = "<group>"; };
+		989058521F35DB0400D86ADD /* CXMLNamespaceNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNamespaceNode.m; sourceTree = "<group>"; };
+		989058531F35DB0400D86ADD /* CXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode.h; sourceTree = "<group>"; };
+		989058541F35DB0400D86ADD /* CXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode.m; sourceTree = "<group>"; };
+		989058551F35DB0400D86ADD /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_PrivateExtensions.h; sourceTree = "<group>"; };
+		989058561F35DB0400D86ADD /* CXMLNode_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_PrivateExtensions.m; sourceTree = "<group>"; };
+		989058571F35DB0400D86ADD /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_XPathExtensions.h; sourceTree = "<group>"; };
+		989058581F35DB0400D86ADD /* CXMLNode_XPathExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_XPathExtensions.m; sourceTree = "<group>"; };
+		989058591F35DB0400D86ADD /* CXMLUnsupportedNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLUnsupportedNode.h; sourceTree = "<group>"; };
+		9890585A1F35DB0400D86ADD /* CXMLUnsupportedNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLUnsupportedNode.m; sourceTree = "<group>"; };
+		9890585C1F35DB0400D86ADD /* CTidy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTidy.h; sourceTree = "<group>"; };
+		9890585D1F35DB0400D86ADD /* CTidy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTidy.m; sourceTree = "<group>"; };
+		9890585E1F35DB0400D86ADD /* TouchXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchXML.h; sourceTree = "<group>"; };
+		98ACC4C81F35DED3009F1658 /* TouchXML-Swift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TouchXML-Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		989057EE1F35D81100D86ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9890583E1F35D91300D86ADD /* libxml2.2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		989057E81F35D81100D86ADD = {
+			isa = PBXGroup;
+			children = (
+				989057F31F35D81100D86ADD /* TouchXML-Swift */,
+				989057F21F35D81100D86ADD /* Products */,
+				9890583C1F35D91300D86ADD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		989057F21F35D81100D86ADD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				989057F11F35D81100D86ADD /* TouchXML-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		989057F31F35D81100D86ADD /* TouchXML-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				9890583F1F35DB0400D86ADD /* Source */,
+				989057F71F35D81100D86ADD /* AppDelegate.h */,
+				989057F81F35D81100D86ADD /* AppDelegate.m */,
+				989057FA1F35D81100D86ADD /* ViewController.h */,
+				989057FB1F35D81100D86ADD /* ViewController.m */,
+				989057FD1F35D81100D86ADD /* Main.storyboard */,
+				989058001F35D81100D86ADD /* Assets.xcassets */,
+				989058021F35D81100D86ADD /* LaunchScreen.storyboard */,
+				989058051F35D81100D86ADD /* Info.plist */,
+				989057F41F35D81100D86ADD /* Supporting Files */,
+				9890580C1F35D85000D86ADD /* Test.swift */,
+			);
+			path = "TouchXML-Swift";
+			sourceTree = "<group>";
+		};
+		989057F41F35D81100D86ADD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				989057F51F35D81100D86ADD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9890583C1F35D91300D86ADD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9890583D1F35D91300D86ADD /* libxml2.2.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9890583F1F35DB0400D86ADD /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				98ACC4C81F35DED3009F1658 /* TouchXML-Swift-Bridging-Header.h */,
+				989058401F35DB0400D86ADD /* Creation */,
+				989058451F35DB0400D86ADD /* CXHTMLDocument.h */,
+				989058461F35DB0400D86ADD /* CXHTMLDocument.m */,
+				989058471F35DB0400D86ADD /* CXMLDocument.h */,
+				989058481F35DB0400D86ADD /* CXMLDocument.m */,
+				989058491F35DB0400D86ADD /* CXMLDocument_PrivateExtensions.h */,
+				9890584A1F35DB0400D86ADD /* CXMLDocument_PrivateExtensions.m */,
+				9890584B1F35DB0400D86ADD /* CXMLElement.h */,
+				9890584C1F35DB0400D86ADD /* CXMLElement.m */,
+				9890584D1F35DB0400D86ADD /* CXMLElement_CreationExtensions.h */,
+				9890584E1F35DB0400D86ADD /* CXMLElement_CreationExtensions.m */,
+				9890584F1F35DB0400D86ADD /* CXMLElement_ElementTreeExtensions.h */,
+				989058501F35DB0400D86ADD /* CXMLElement_ElementTreeExtensions.m */,
+				989058511F35DB0400D86ADD /* CXMLNamespaceNode.h */,
+				989058521F35DB0400D86ADD /* CXMLNamespaceNode.m */,
+				989058531F35DB0400D86ADD /* CXMLNode.h */,
+				989058541F35DB0400D86ADD /* CXMLNode.m */,
+				989058551F35DB0400D86ADD /* CXMLNode_PrivateExtensions.h */,
+				989058561F35DB0400D86ADD /* CXMLNode_PrivateExtensions.m */,
+				989058571F35DB0400D86ADD /* CXMLNode_XPathExtensions.h */,
+				989058581F35DB0400D86ADD /* CXMLNode_XPathExtensions.m */,
+				989058591F35DB0400D86ADD /* CXMLUnsupportedNode.h */,
+				9890585A1F35DB0400D86ADD /* CXMLUnsupportedNode.m */,
+				9890585B1F35DB0400D86ADD /* Tidy */,
+				9890585E1F35DB0400D86ADD /* TouchXML.h */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		989058401F35DB0400D86ADD /* Creation */ = {
+			isa = PBXGroup;
+			children = (
+				989058411F35DB0400D86ADD /* CXMLDocument_CreationExtensions.h */,
+				989058421F35DB0400D86ADD /* CXMLDocument_CreationExtensions.m */,
+				989058431F35DB0400D86ADD /* CXMLNode_CreationExtensions.h */,
+				989058441F35DB0400D86ADD /* CXMLNode_CreationExtensions.m */,
+			);
+			path = Creation;
+			sourceTree = "<group>";
+		};
+		9890585B1F35DB0400D86ADD /* Tidy */ = {
+			isa = PBXGroup;
+			children = (
+				9890585C1F35DB0400D86ADD /* CTidy.h */,
+				9890585D1F35DB0400D86ADD /* CTidy.m */,
+			);
+			path = Tidy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		989057F01F35D81100D86ADD /* TouchXML-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 989058081F35D81100D86ADD /* Build configuration list for PBXNativeTarget "TouchXML-Swift" */;
+			buildPhases = (
+				989057ED1F35D81100D86ADD /* Sources */,
+				989057EE1F35D81100D86ADD /* Frameworks */,
+				989057EF1F35D81100D86ADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TouchXML-Swift";
+			productName = "TouchXML-Swift";
+			productReference = 989057F11F35D81100D86ADD /* TouchXML-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		989057E91F35D81100D86ADD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Codegarden AS";
+				TargetAttributes = {
+					989057F01F35D81100D86ADD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = S5UJE74VF7;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 989057EC1F35D81100D86ADD /* Build configuration list for PBXProject "TouchXML-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 989057E81F35D81100D86ADD;
+			productRefGroup = 989057F21F35D81100D86ADD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				989057F01F35D81100D86ADD /* TouchXML-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		989057EF1F35D81100D86ADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				989058041F35D81100D86ADD /* LaunchScreen.storyboard in Resources */,
+				989058011F35D81100D86ADD /* Assets.xcassets in Resources */,
+				989057FF1F35D81100D86ADD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		989057ED1F35D81100D86ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				989058691F35DB0400D86ADD /* CXMLNode_PrivateExtensions.m in Sources */,
+				989057FC1F35D81100D86ADD /* ViewController.m in Sources */,
+				9890585F1F35DB0400D86ADD /* CXMLDocument_CreationExtensions.m in Sources */,
+				9890586C1F35DB0400D86ADD /* CTidy.m in Sources */,
+				9890586A1F35DB0400D86ADD /* CXMLNode_XPathExtensions.m in Sources */,
+				9890586B1F35DB0400D86ADD /* CXMLUnsupportedNode.m in Sources */,
+				989058601F35DB0400D86ADD /* CXMLNode_CreationExtensions.m in Sources */,
+				9890580D1F35D85000D86ADD /* Test.swift in Sources */,
+				989058631F35DB0400D86ADD /* CXMLDocument_PrivateExtensions.m in Sources */,
+				989058661F35DB0400D86ADD /* CXMLElement_ElementTreeExtensions.m in Sources */,
+				989058621F35DB0400D86ADD /* CXMLDocument.m in Sources */,
+				989058641F35DB0400D86ADD /* CXMLElement.m in Sources */,
+				989057F91F35D81100D86ADD /* AppDelegate.m in Sources */,
+				989058671F35DB0400D86ADD /* CXMLNamespaceNode.m in Sources */,
+				989058611F35DB0400D86ADD /* CXHTMLDocument.m in Sources */,
+				989058651F35DB0400D86ADD /* CXMLElement_CreationExtensions.m in Sources */,
+				989057F61F35D81100D86ADD /* main.m in Sources */,
+				989058681F35DB0400D86ADD /* CXMLNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		989057FD1F35D81100D86ADD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				989057FE1F35D81100D86ADD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		989058021F35D81100D86ADD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				989058031F35D81100D86ADD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		989058061F35D81100D86ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		989058071F35D81100D86ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		989058091F35D81100D86ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = S5UJE74VF7;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "TouchXML-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.airthings.TouchXML-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TouchXML-Swift/Source/TouchXML-Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9890580A1F35D81100D86ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = S5UJE74VF7;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "TouchXML-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.airthings.TouchXML-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TouchXML-Swift/Source/TouchXML-Swift-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		989057EC1F35D81100D86ADD /* Build configuration list for PBXProject "TouchXML-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				989058061F35D81100D86ADD /* Debug */,
+				989058071F35D81100D86ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		989058081F35D81100D86ADD /* Build configuration list for PBXNativeTarget "TouchXML-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				989058091F35D81100D86ADD /* Debug */,
+				9890580A1F35D81100D86ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 989057E91F35D81100D86ADD /* Project object */;
+}
